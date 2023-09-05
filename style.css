@@ -1,0 +1,69 @@
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Raleway", sans-serif
+}
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+/*   margin: 0 auto; /* Gives that scrolling effect as the typing happens */ 
+  letter-spacing: .05em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+body, html {
+  height: 100%;
+  line-height: 1.2;
+  
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/home.jpeg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/up.png");
+  min-height: 70%;
+}
+
+.bgimg-3 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/mid.jpg");
+  min-height: 70%;
+}
+
+.bgimg-4 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/down.png");
+  min-height: 70%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.safetyTxt{
+  text-shadow: 0.5px 0.5px 2px black
+}
+

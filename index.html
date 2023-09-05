@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheeft" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.typekit.net/egh3bfi.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+      <div>
+        <a href="#home" class="w3-bar-item w3-button w3-wide"> <img src="images/cs_girls_logo_2.png" width="30"
+            height="30"><b>SAFETY<i> WITH 02'S</b></i></a>
+      </div>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> SAFETY CHECK</a>
+        <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> STATISTICS</a>
+        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+        onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+</body>
+
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none"
+  id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">WHY SAFETY</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">OIL AND GAS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-xxxlarge safetyTxt ">
+      <div class="typewriter"> Start Something That Matters.</div>
+    </span><br>
+    <span class="w3-large safetyTxt">Oil and Gas is one of the most important industries worldwide, learn how to
+      keep
+      yourselves and the earth safe.</span>
+    <p><a href="#about"
+        class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off">Learn more
+        about safety and its impact</a></p>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:64px 8px" id="about">
+  <h3 class="w3-center">The Importance of Safety in Energy</h3>
+  <p class="w3-center w3-large" </p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <img src="images/dry.png" width="70" height="70">
+      <p class="w3-large" style="font-size: 26px">Energy Usage</p>
+      <p>As of 2020:
+        33% of energy came from oil, 27% from coal, and 24% from natural gas.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/money-saving.png" width="70" height="70">
+      <p class="w3-large">Jobs</p>
+      <p>The Oil and Gas has an estimated revenue of $2.8B+ USD daily.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/safety.png" width="70" height="70">
+      <p class="w3-large">Power</p>
+      <p>Energy companies support a number of jobs from business departments, engineers, refinery works, and so much
+        more.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/family.png" width="70" height="70">
+      <p class="w3-large">Support</p>
+      <p>Oil and Gas companies employ almost 5% of US employees which support their communities. </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- SAFETY CHECK -->
+<div href="#team" class="w3-container w3-light-grey" style="padding:64px 8px" id="team">
+  <h3 class="w3-center">Safety Check</h3>
+  <p class="w3-center w3-large">Are you working safely? Is your work environment safe?</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l4 m6 w3-margin-bottom ">
+      <div class="w3-card" style="background-color:white;">
+        <img src="images/upstream.png" style="width:100%;padding:5%">
+        <div class="w3-container" background-size: cover;>
+          <h3>Upstream</h3>
+          <p class="w3-opacity">Production and Exploration</p>
+          <p>This sector of the oil and gas industry pertains to the identification, extraction, and production of crude
+            oil and natural gas.</p>
+          <p>Hazards in this field include<br>• Asphyxiation in confined spaces<br>• Exposure to hazardous
+            chemicals<br>• Getting struck by or caught between equipment</p>
+          <p><button onclick="window.location.href='upstream.html';" class="w3-button w3-light-grey w3-block"><i
+                class="	fa fa-check-square-o"></i> Safety Checklist</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l4 m6 w3-margin-bottom">
+      <div class="w3-card" style="background-color:white;">
+        <img src="images/midstream.png" style="width:100%;padding:5%">
+        <div class="w3-container">
+          <h3>Midstream</h3>
+          <p class="w3-opacity">Transportation</p>
+          <p>Midstream operations involve the transportation and processing of oil and natural gas.</p>
+          <p>Hazards include:<br>• Failure to contain flammable materials<br>• Explosions from excessive pressure<br>•
+            Corrosion along pipeline wields<br><br></p>
+          <p><button onclick="window.location.href='midstream.html';" class="w3-button w3-light-grey w3-block" <a>
+              </a><i class="fa fa-check-square-o"></i> Safety Checklist</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l4 m6 w3-margin-bottom">
+      <div class="w3-card" style="background-color:white;">
+        <img src="images/downstream.png" style="width:100%;padding:5%">
+        <div class="w3-container">
+          <h3>Downstream</h3>
+          <p class="w3-opacity">Refining and Marketing</p>
+          <p>This sector of oil and gas production is the final production process for energy, this process is the most
+            interactive with customer.</p>
+          <p>Hazards include:<br>• Failure to contain flammable materials<br>• Vehicle collisions in transportation<br>•
+            Electrical and other hazardous tools</p>
+          <p><button onclick="window.location.href='downstream.html';" class="w3-button w3-light-grey w3-block"><i
+                class="	fa fa-check-square-o"></i> Safety Checklist</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">200+</span>
+    <br>Worldwide Oil & Gas Companies
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">10.3M+</span>
+    <br>Jobs Supported Within the US
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">$107B+</span>
+    <br>US revenue from 2010-2020
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">1,200+</span>
+    <br>Fatalities within 2010-2020
+  </div>
+</div>
+
+
+<!-- Work Section -->
+<div style="padding:0px 0px" id="work">
+  <img src="images/lols.jpeg" style="width:100%">
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:64px 8px" id="pricing">
+  <h3>Did You Know?</h3>
+  <p class="w3-large"><i>Basic statistics on the Oil and Gas Industry</i><br></p>
+  <div class="w3-row-padding" `style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Upstream</li>
+        <li class="w3-padding-16"><b>324K</b> Employees</li>
+        <li class="w3-padding-16"><b>6</b> Major Companies</li>
+        <li class="w3-padding-16"><b>$500B</b> USD Revenue in 2021</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">2+ Injuries</h2>
+          <span class="w3-opacity">per 1K workers</span>
+        </li>
+        <li class="w3-xlarge" style="height:100px;padding:0%"><img src="images/rigs.jpg" style="object-fit: cover"
+            width="100%" height="100%"></li>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Midstream</li>
+        <li class="w3-padding-16"><b>247K+</b> Employees</li>
+        <li class="w3-padding-16"><b>10+</b> Major Companies</li>
+        <li class="w3-padding-16"><b>$24.3B+</b> USD Revenue in 2021</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">64+ Injuries</h2>
+          <span class="w3-opacity">per 1k workers</span>
+        </li>
+        <li class="w3-xlarge" style="height:100px;padding:0%"><img src="images/pipelines.jpg" style="object-fit: cover;"
+            width="100%" height="100%"></li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Downstream </li>
+        <li class="w3-padding-16"><b>1.16M</b> Employees</li>
+        <li class="w3-padding-16"><b>10+</b>Major Companies</li>
+        <li class="w3-padding-16"><b>$130.B</b> USD Revenue in 2021 </li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">Highest Fatality Rate</h2>
+          <span class="w3-opacity">due to transportation</span>
+        </li>
+        <li class="w3-xlarge" style="height:100px;padding:0%">
+          <img src="images/transportation.jpeg" style="object-fit: cover;min-width:100%;min-height: 100%;" width="100%"
+            height="100%">
+        </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:64px 8px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Let's get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Houston, TX</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +1 3468137799</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: contact@csgirls.org</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Created By</p>
+  <p>Ana Carolyn Heron: CarolynHeron1@gmail.com </p>
+  <p>Chelsea Nguyen: Cngu02@gmail.com</p>
+  <p>Daisy Gonzalez: Daigza09@gmail.com</p>
+  <p>Rebecca Santos: BeckyMSantos7@gmail.com</p>
+</footer>
+<script>
+</script>
+
+</body>
+
+</html>
